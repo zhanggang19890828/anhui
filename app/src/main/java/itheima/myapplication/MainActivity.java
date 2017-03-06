@@ -18,11 +18,14 @@ public class MainActivity extends AppCompatActivity {
         View viewById1 = findViewById(R.id.activity_main);
         View viewByI = findViewById(R.id.activity_main);
         View viewById2 = findViewById(R.id.activity_main);
+        TextView tv2 = (TextView) findViewById(R.id.tv2);
 
         TextView tv1 = (TextView) findViewById(R.id.tv1);
         tv1.setText("沃日你嗨。。。");
         TextView tv = (TextView) findViewById(R.id.tv);
         tv.setText("呵呵。。。");
         tv.setTextColor(getResources().getColor(R.color.colorAccent));
+        tv.setTextSize(23);
+        tv2.setText("怎么回事呢 ");
     }
 }
