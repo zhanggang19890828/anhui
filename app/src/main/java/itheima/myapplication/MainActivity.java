@@ -15,7 +15,12 @@ public class MainActivity extends AppCompatActivity {
         View viewById = findViewById(R.id.activity_main);
         View f = findViewById(R.id.activity_main);
 
+        View viewById1 = findViewById(R.id.activity_main);
+        View viewByI = findViewById(R.id.activity_main);
         View viewById2 = findViewById(R.id.activity_main);
+
+        TextView tv1 = (TextView) findViewById(R.id.tv1);
+        tv1.setText("沃日你嗨。。。");
         TextView tv = (TextView) findViewById(R.id.tv);
         tv.setText("呵呵。。。");
     }
