@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         View viewById = findViewById(R.id.activity_main);
+
         View viewById1 = findViewById(R.id.activity_main);
-        View viewById3 = findViewById(R.id.activity_main);
+        View viewByI = findViewById(R.id.activity_main);
+        View viewById2 = findViewById(R.id.activity_main);
     }
 }
