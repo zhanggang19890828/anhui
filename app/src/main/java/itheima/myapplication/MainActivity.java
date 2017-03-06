@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
         tv1.setText("沃日你嗨。。。");
         TextView tv = (TextView) findViewById(R.id.tv);
         tv.setText("呵呵。。。");
+        tv.setTextColor(getResources().getColor(R.color.colorAccent));
     }
 }
