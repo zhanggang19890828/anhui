@@ -3,6 +3,7 @@ package itheima.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
         View viewById1 = findViewById(R.id.activity_main);
         View viewByI = findViewById(R.id.activity_main);
         View viewById2 = findViewById(R.id.activity_main);
+
+        TextView tv1 = (TextView) findViewById(R.id.tv1);
+        tv1.setText("沃日你嗨。。。");
     }
 }
