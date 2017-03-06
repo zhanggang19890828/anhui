@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
         View viewById2 = findViewById(R.id.activity_main);
         TextView tv = (TextView) findViewById(R.id.tv);
-        tv.setText("ºÇºÇ¡£¡£¡£");
+        tv.setText("å‘µå‘µã€‚ã€‚ã€‚");
     }
 }
